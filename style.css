@@ -3,17 +3,43 @@ body {
 }
 
 .header {
-    background-color: rgb(26, 26, 24);
-    height: 500px;
-    padding-top: 150px;
+    /* background-color: rgb(26, 26, 24); */
+    background-image: url(images/header.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 700px;
+    padding-top: 250px;
     font-size: 5rem;
     color: white;
 }
 .profile-img {
     padding-left: 20px;
     background-size: auto;
-    max-width: 70%;
+    max-width: 60%;
 }
 .footer {
     background-color: grey;
+}
+.title {
+    font-size: 100px;
+    color: rgb(124, 163, 153);
+    /* color: #05c9fa; */
+}
+.sub-title {
+    color: #c99a3c;
+}
+.blue {
+    color: #3baca7;
+}
+.profile {
+    margin-top: 80px;
+}
+.profile-title,.experiences-title,.project-title ,.abilities-title{
+    font-size: 50px;
+}
+.about-title,.details-title {
+    font-size: 25px;
+}
+.experiences , .projects {
+    background-color: #f3efe0;
 }
