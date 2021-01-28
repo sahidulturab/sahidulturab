@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: rgb(26, 26, 24);
+    height: 500px;
+    padding-top: 150px;
+    font-size: 5rem;
+    color: white;
+}
+.profile-img {
+    padding-left: 20px;
+    background-size: auto;
+    max-width: 70%;
+}
+.footer {
+    background-color: grey;
+}
